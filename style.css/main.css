@@ -1,0 +1,516 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam', sans-serif;
+}
+#main{
+    width: 100%;
+    background-image: url("../images/bg-tablet-pattern.svg"), url("../images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%;
+    background-position-x: 60vw, -30vw;
+    background-position-y: -35vh, 130vh;
+}
+img{
+    width: 100%;
+    display: block;
+}
+header{
+    display: flex;
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+    font-weight: 700;
+}
+nav ul li:hover a{
+    color: hsl(0, 6%, 71%);
+}
+nav ul li a{
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+}
+p{
+    color:hsl(227, 12%, 61%);
+    line-height: 1.5;
+}
+h1, h2, h3, h4{
+    color: hsl(228, 39%, 23%);
+}
+.getstarted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    background: hsl(12, 88%, 59%);
+    box-shadow: 0px 5px 5px hsl(12, 73%, 79%);
+}
+.getstarted:hover {
+    background: hsl(12, 73%, 79%);
+}
+.getstarted a{
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+}
+.getstarted div{
+    width: 100%;
+}
+#burgertoggle{
+    display: none;
+    width: 30px;
+    height: 30px;
+    background: url("../images/icon-hamburger.svg");
+    background-repeat: no-repeat;
+}
+#mainsection{
+    padding-top: 50px;
+}
+#mainsectionwrap{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+#mainsectionillus{
+    width: 40%;
+}
+#mainsectionillus img{
+    width: 100%;
+}
+#mainsectiontext{
+    width: 40%;
+}
+#mainsectiontext h1{
+    font-size: 50px;
+}
+#mainsectiontext p, #secondsection p{
+    width: 73%;
+}
+#secondsectionwrap{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+#secondsectiontext{
+    width: 40%;
+    
+}
+#secondsectiontext h1{
+    font-size: 35px;
+}
+#secondsectionillus{
+    width: 50%;
+}
+#secondsectionillus p{
+    width: 100%;
+    
+}
+#slidercontainer{
+    padding-top: 50px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+#testimonyslide{
+    width: 150%;
+    position: relative;
+}
+.contents{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.contents span{
+    height: 30px;
+}
+.contents span{
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    background: hsl(12, 88%, 59%);
+}
+.contents div{
+    width: 88%;
+}
+.contents h3{
+    margin-top: 0;
+}
+.contenttext{
+    margin: 0 10px;
+}
+#testimonycover{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+#testimonycover h2{
+    font-size: 35px;
+}
+#testimonycover .getstarted{
+    margin: auto;
+    margin-top: 20px;
+}
+#testimonyslide{
+    display: flex;
+    cursor: grab;
+}
+.slidecontents{
+    position: relative;
+    margin: 0 10px;
+}
+.contentimg{
+    width: 70px;
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translateX(-50%);
+}
+.contenttext{
+    background:  hsl(0, 0%, 98%);
+    padding: 30px 10px 10px 10px;
+}
+#bottomlinkwrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: hsl(12, 88%, 59%);
+    padding: 50px 0;
+    background-image: url("../images/bg-simplify-section-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-y: -20vh;
+    background-position-x: 15vw;
+}
+#bottomlinkwrap .getstarted{
+    background: hsl(0, 0%, 100%);
+    box-shadow: none;
+}
+#btlinktext{
+    width: 25%;
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+}
+#bottomlinkwrap .getstarted a{
+color:hsl(12, 88%, 59%);
+}
+#bottomlinkwrap .getstarted:hover a{
+    color:hsl(12, 73%, 79%);
+    }
+footer{
+    height: 250px;
+    background: hsl(233, 12%, 13%);
+}
+#footerwrap{
+    height: 50%;
+    padding: 4% 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#footericons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#socialicons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons:hover svg path{
+    fill: hsl(12, 88%, 59%);
+    cursor: pointer;
+}
+#footernav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.fnav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: hsl(0, 0%, 98%);
+}
+.fnavitems:hover{
+    color: hsl(12, 88%, 59%);
+    cursor: pointer;
+}
+#copyrightsandsearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#search input{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    outline: none;
+    color: hsl(12, 88%, 59%);
+    
+}
+#search input::placeholder{
+    color:hsl(0, 6%, 71%); 
+}
+#search button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    background: hsl(12, 88%, 59%);
+    color: hsl(0, 0%, 98%);
+    outline: none;
+}
+#search button:hover{
+    background: hsl(12, 73%, 79%);
+    cursor: pointer;
+}
+#errortext{
+    font-size: 12px;
+    color: hsl(12, 53%, 42%);
+    font-style: italic;
+    display: none;
+}
+#copyright{
+    color: hsl(0, 6%, 71%);
+}
+@media(max-width: 890px){
+    header .getstarted{
+        display: none;
+    }
+}
+@media(max-width: 760px){
+    body{
+        padding: 0;
+        margin: 0;
+    } 
+    nav{
+        display: none;
+    }
+    nav.open{
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.6);
+        top: 44px;
+        left: 0;
+        z-index: 1;
+    }
+    nav.open ul{
+        display: block;
+        text-align: center;
+        position: relative;
+        padding: 20px 0;
+        background: hsl(0, 0%, 100%);
+        width: 80%;
+        border-radius: 7px;
+        top: 10%;
+        margin: auto;
+    }
+    nav ul li{
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+        font-weight: 700;
+    }
+    #burgertoggle{
+        display: block;
+    }
+    #burgertoggle.open{
+        background: url("../images/icon-close.svg");
+        background-repeat: no-repeat;
+    }
+    #main{
+        width: 100%;
+        background-image: url("../images/bg-tablet-pattern.svg"), url("../images/bg-tablet-pattern.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-size: 100%;
+        background-position-x: 20vw, 65vw;
+        background-position-y: -5vh, 75vh;
+    }
+    #mainsectionwrap{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0 10%;
+
+    }
+    #mainsectionillus{
+        width: 100%;
+    }
+    #mainsectiontext{
+        width: 100%;
+        text-align: center;
+    }
+    #mainsectiontext h1{
+        font-size: 30px;
+    }
+    #mainsectiontext .getstarted{
+        margin: auto;
+    }
+    #mainsectiontext p{
+        width: 100%;
+        margin: auto;
+        line-height: 1.5;
+        margin-bottom: 10%;
+    }
+     #secondsection p{
+        width: 100%;
+    }
+    #secondsectionwrap{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+    #secondsectiontext{
+        width: 80%;
+        padding: 0 10%;
+        text-align: center;
+        line-height: 1.5;
+    }
+    #secondsectiontext h1{
+        font-size: 26px;
+    }
+    #secondsectionillus{
+        width: 100%;
+    }
+    #secondsectionillus p{
+        position: relative;
+        left: -12%;
+    }
+    #testimonyslide{
+        display: flex;
+        width: 400%;
+        animation-name: slide;
+        animation-delay: 5s;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes slide{
+        0%{transform: translateX(0%);}
+        25%{transform: translateX(0%);}
+        26%{transform: translateX(-25%);}
+        50%{transform: translateX(-25%)}
+        51%{transform: translateX(-50%);}
+        75%{transform: translateX(-50%);}
+        76%{transform: translateX(-75%);}
+        100%{transform: translateX(-75%);}
+    }
+    .active{
+        background-color: hsl(12, 88%, 59%);
+    }
+    .slidecontents{
+        margin: 1%;
+        width: 100%;
+    }
+    .contents h3{
+        padding: 5px;
+        background: hsl(12, 73%, 79%);
+        font-size: 16px;
+    }
+    .contents span::before{
+        content: "";
+        width: 95%;
+        height: 30px;
+        position: absolute;
+        left: 5%;
+        background: hsl(12, 73%, 79%);
+        z-index: -100;
+    }
+    #sliderselect{
+        width: 20%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .select{
+        width: 10px;
+        height: 10px;
+        border: 2px solid hsl(12, 88%, 59%);
+        border-radius: 50%;
+    }
+    #bottomlinkwrap{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+        background: hsl(12, 88%, 59%);
+        padding: 50px 0;
+        background-image: url("../images/bg-simplify-section-desktop.svg");
+        background-repeat: no-repeat;
+        background-position-y: -15vh;
+        background-position-x: -120vw;
+    }   
+    #btlinktext{
+        width: 80%;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    footer{
+        height: 400px;
+        background: hsl(233, 12%, 13%);
+    }
+    #footerwrap{
+        position: relative;
+        height: 90%;
+        padding: 10px 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    #footericons{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    #footerlogo{
+        margin: auto;
+    }
+    #socialicons{
+        display: flex;
+        justify-content: space-between;
+    }
+    #footernav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    #copyrightsandsearch{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: space-between;
+    }
+    #copyright{
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media (max-width: 299px){
+    .contents h3{
+        font-size: 14px;
+    }
+}
